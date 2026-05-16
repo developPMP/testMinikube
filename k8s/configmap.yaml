@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: storeapp-config
+  namespace: storeapp
+data:
+  DB_URL: jdbc:postgresql://postgres:5432/storedb
+  DB_USER: storeuser
